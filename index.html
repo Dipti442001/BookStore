@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+
+    <!--Bootstrap Icon  -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Style -->
+    <link rel="stylesheet" href="Help/style.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: darkolivegreen">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="Pics/logo.png" class="img-fluid" width="180px;" alt="" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Books
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Comic.html">Comic Book</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Historical Fiction</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Graphic Novel</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Detective and Mystery</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Science Fiction (Sci-Fi)</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Slider -->
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Pics/a.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Pics/b.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="Pics/c.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="display-6 text-center mt-5 mb-2">Words have power!!<br>
+                    Stories, ideas, and knowledge that will change your life forever.</h3>
+            </div>
+        </div>
+
+        <!-- Features -->
+
+        <div class="container-fluid">
+            <div class="row justify-content-evenly pt-3 pb-3">
+                <div class="col-md-3 text-center mt-5">
+                    <h1><i class="bi bi-book-fill text-primary"></i></h1>
+                    <h5>Books</h5>
+                    <p>Every type of Book is available</p>
+                </div>
+                <div class="col-md-3 text-center mt-5">
+                    <h1><i class="bi bi-file-arrow-down-fill text-success"></i></h1>
+                    <h5>Download</h5>
+                    <p>You can download any book any time.</p>
+                </div>
+                <div class="col-md-3 text-center mt-5">
+                    <h1><i class="bi bi-newspaper text-info"></i></h1>
+                    <h5>Newspaper</h5>
+                    <p>Newspaper also available</p>
+                </div>
+            </div>
+            <!-- Line -->
+            <hr>
+
+            <!-- Selling Growth -->
+            <div class="row justify-content-evenly pt-3 pb-5">
+                <div class="col-md-5 pt-3">
+                    <img src="Pics/growth.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-5 pt-3">
+                    <!-- Progress Bar -->
+                    <h2 class="text-center pb-3">Most Popular</h2>
+
+                    <h5 class="mt-3">Comic Book</h5>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" aria-label="Success example"
+                            style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                    <h5 class="mt-3">Historical Fiction</h5>
+                    <div class="progress">
+                        <div class="progress-bar bg-info" role="progressbar" aria-label="Info example"
+                            style="width: 61%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                    <h5 class="mt-3">Graphic Novel</h5>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example"
+                            style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                    <h5 class="mt-3">Detective and Mystery</h5>
+                    <div class="progress">
+                        <div class="progress-bar bg-danger" role="progressbar" aria-label="Danger example"
+                            style="width: 65%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                    <h5 class="mt-3">Science Fiction (Sci-Fi</h5>
+                    <div class="progress">
+                        <div class="progress-bar bg-danger" role="progressbar" aria-label="Danger example"
+                            style="width: 95%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Contact -->
+
+            <div class="row justify-content-evenly pt-2 pb-5" style="background-color: rgb(223, 223, 223);">
+                <div class="col-md-5 mt-5">
+                    <h3 class="mb-4">Contact Form</h3>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+
+
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-danger">Submit</button>
+                    </form>
+                </div>
+                <div class="col-md-5 mt-5">
+                    <h3 class="mb=4">Address</h3>
+                    <p>676/B, Appa Balwant Chowk,<br>
+                        opposite Jogeshwari Mandir, <br>
+                        Budhwar Peth, Pune, Maharashtra 411002.<br>
+                        <i class="bi bi-telephone"></i> : 020 2588 6623
+                    </p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60516.4829947724!2d73.78174352473178!3d18.561402720504095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c06fc1853739%3A0x50cd7a080bb41cf8!2sPragati%20Book%20Centre!5e0!3m2!1sen!2sin!4v1661857316273!5m2!1sen!2sin"
+                        style="width: 100%;" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <!-- FAQ -->
+
+            <div class="row justify-content-evenly pt-5 pb-5">
+                <div class="col-md-10">
+                    <h3 class="text-center pb-4">FAQ</h3>
+                    <div class="accordion accordion-flush border" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    What if I can't find what I'm looking for?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">The best way to locate a product in the online bookstore is to use the Product Search functions located in the top navigation area of the bookstore. 
+                                    If you need further help, call us at 1-800-328-9000.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    Are transactions safe?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">YES. Hazelden provides Internet security by:
+
+                                    hosting our site on a secure server. No other company or organization shares the server we use to store information.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    How long does it take for delivery to US destinations?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">For domestic shipments, please allow 5 to 15 days - for delivery.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+
+            <div class="row justify-content-evenly bg-dark text-white pt-2 pb-5">
+                <div class="col-md-3 pt-4">
+                    <h5 class="pb-2">ABOUT US</h5>
+                    <p>The books sold on TheBookShopOnline.com are 100% original, no counterfeit/duplicate books. For this we have an anti-piracy process in place, each and every book passes through a Piracy test before getting it uploaded on TheBookShopOnline.com</p>
+                </div>
+                <div class="col-md-3 pt-4">
+                    <h5 class="pb-2">IMPORTANT LINK</h5>
+                    <p>
+                        <a href="" class="link-light text-decoration-none"><i class="bi bi-house-door-fill"></i> HOME</a><br>
+                        <a href="" class="link-light text-decoration-none"><i class="bi bi-file-person-fill"></i> ABOUT US</a><br>
+                        <a href="" class="link-light text-decoration-none"><i class="bi bi-person-circle"></i> CONTACT US</a><br>
+                    </p>
+                </div>
+                <div class="col-md-3 pt-4">
+                    <h5 class="pb-2">CONTACT US</h5>
+                    <p>676/B, Appa Balwant Chowk,<br>
+                        opposite Jogeshwari Mandir, <br>
+                        Budhwar Peth, Pune, Maharashtra 411002.<br>
+                        <i class="bi bi-telephone"></i> : 020 2588 6623
+                    </p>
+                </div>
+            </div>
+            <!-- Container End -->
+        </div>
+
+</body>
+
+</html>
